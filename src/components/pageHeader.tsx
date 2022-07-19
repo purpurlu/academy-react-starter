@@ -1,13 +1,12 @@
-interface PageHeaderProps{
-    title: string
+interface PageHeaderProps {
+  title: string;
 }
 
-
-function PageHeader(props: PageHeaderProps) {
-    return (
-        <>
-        <h1> {props.title} </h1>
-        </>
-    )
+function PageHeader(props: PageHeaderProps):JSX.Element {
+  return (
+    <>
+      <h1> {props.title} </h1>
+    </>
+  );
 }
-export default PageHeader 
+export default PageHeader;

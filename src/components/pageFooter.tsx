@@ -1,13 +1,12 @@
-interface PageFooterProps{
-    title: string
+interface PageFooterProps {
+  title: string;
 }
 
-
-function PageFooter(props: PageFooterProps) {
-    return (
-        <>
-        <h1> {props.title} </h1>
-        </>
-    )
+function PageFooter(props: PageFooterProps):JSX.Element {
+  return (
+    <>
+      <h1> {props.title} </h1>
+    </>
+  );
 }
-export default PageFooter 
+export default PageFooter;
